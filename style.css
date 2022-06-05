@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.clear{
+    clear: both;
+}
+
+.header {
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+}
+.header .logo a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.header .logo i {
+  background-color: #002146;
+  color: #d4ac10;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 20px;
+  vertical-align: bottom;
+  display: inline-block;
+  border-radius: 50%;
+  font-weight: lighter;
+}
+
+.header .logo p {
+  display: inline-block;
+  font-size: 40px;
+  color: #002146;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.header .navbar {
+    margin-left: 20px;
+}
+
+.header .navbar a{
+    text-decoration: none;
+    margin-right: 35px;
+    color:  #002146;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.carousel{
+    margin-top: 30px;
+    background-image: url("./images/2.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 600px;
+}
+
+.infor{   
+    margin-top: 70px;
+}
+
+.infor .row .col{
+    float: left;
+    width: 50%;
+}
+.infor .row .col .title {
+    width: 70%;
+    margin-left: 200px;
+}
+.infor .row .col .title h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.infor .row .col .title p{
+    color: #8d8d8d;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.infor .row .col .title button{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fdc800;
+    border-style: none;
+    margin-top: 20px;
+}
+.infor .row .col img{
+    margin-left: 60px;
+}
+
+.event{
+    margin-top: 70px;
+    background-color: #f6f6f6;
+    padding: 50px 0;
+}
+
+.event .row{
+   margin-left: 200px;
+}
+
+.event .row .col{
+    float:left;
+    padding-right: 100px;
+}
+
+
+.event .row .col h2{
+    font-size: 65px;
+}
+.event .row .col p{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.event .row .col .col_right{
+    float: left;
+}
+
+.field{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+.field .row{
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.field .row .col{
+    float: left;
+    width: 25%;
+    padding: 15px 15px;
+   
+  
+}
+.field .row .col .item{
+    padding: 40px 10px;
+    background-color: #002146;
+    border-radius: 5px;
+}
+
+.field .row .col i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.field .row .col p{
+    font-size: 18px;
+}
+
+.post{
+    margin-top: 70px;
+    background-color: #f6f6f6;
+}
+
+.post .row{
+    padding: 120px 0;
+    padding-left: 150px;
+}
+
+.post .row .col{
+    float:left;
+    width: 50%;
+    padding: 0 30px;
+}
+
+.post .row .col h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.post .row .col .wrapper{
+    background-color: white;
+    padding: 30px 0;
+}
+.post .row .col .button{
+   text-align: right;
+   margin-top: 20px;
+}
+.post .row .col .button button{
+    background-color: #fdc800;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    color: #002146;
+}
+.post .row .col .item .row_left{
+    padding: 5px 60px;
+    margin-bottom: 20px;
+}
+.post .row .col .item .row_left .col_left img{
+   width: 200px;
+   height: 130px;
+   border-radius: 10px;
+}
+
+.post .row .col .item .row_left .col_left h2{
+    font-size: 23px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+ }
+
+.post .row .col .item .row_left .col_left{
+    float:left;
+}
+.post .row .col .item .row_left .img{
+    width: 40%;
+    padding-bottom: 20px;
+}
+.post .row .col .item .row_left .text{
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.post .row .col .item .row_left .text p{
+   color: #8d8d8d;
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+.post .row .col .item .row_left .text span{
+    color: #5b5959;
+    font-size: 19px;
+    font-weight: 500;
+ }
+.post .row .col .item_right .row_right .col_right{
+    float: left;  
+}
+
+.post .row .col .item_right .row_right .left{
+    width: 22%;
+    text-align: center;  
+}
+.post .row .col .item_right .row_right .right{
+    width: 78%;
+    text-align: left;
+}
+
+.post .row .col .item_right .row_right .col_right .time{
+    margin-right: 20px;
+}
+
+.post .row .col .item_right .row_right .col_right .time .top{
+    font-size: 30px;
+    background-color: #fdc800;
+    padding: 8px 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.post .row .col .item_right .row_right .col_right .time .top h4{
+    font-size: 40px; 
+}
+.post .row .col .item_right .row_right .col_right .time .top span{
+     font-size: 20px; 
+}
+
+.post .row .col .item_right .row_right .col_right .time .blow{
+    background-color: #002146;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+
+
+.post .row .col .item_right {
+  background-color: white;
+  padding: 30px 30px;
+  margin-bottom: 30px;
+  width: 95%;
+}
+
+.post .row .col .item_right .row_right .right h3{
+    font-size: 23px; 
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+
+.post .row .col .item_right .row_right .right p{
+    font-size: 20px; 
+    color: #535252;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.post .row .col .item_right .row_right .right span{
+    font-size: 20px; 
+    color: #002146;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: #002146;
+    color: #f6f6f6;
+}
+
+.footer .row{
+    width: 75%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #8d8d8d;
+ 
+}
+
+.footer .row .col{
+    float:left;
+
+}
+
+.footer .row .col_1{
+    width: 40%;
+}
+
+.footer .row .col_2{
+    width: 30%;
+}
+
+.footer .row .col_3{
+    width: 30%;
+}
+
+.footer .row .col .item h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.footer .row .col .item .icon{
+    margin-bottom: 25px;}
+
+.footer .row .col .item i{
+    color: #d4ac10;
+    margin-right: 10px;
+}
+
+.footer .row .col .item p{
+    display: inline;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer .row .col .item pre{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.footer .source{
+  
+    font-size: 18px;
+    font-weight: 450;
+   width: 75%;
+   margin: auto;
+   margin-top: 30px;
+   padding-bottom: 50px;
+}
+
